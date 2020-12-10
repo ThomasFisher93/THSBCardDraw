@@ -117,12 +117,15 @@ export function SongCard(props: Props) {
         <div className={styles.artist} title={artistTranslation}>
           {artist}
         </div>
+        {isJapanese ? null : (
+          <div className={styles.artistTranslation}>{artistTranslation}</div>
+        )}
       </div>
       <div
         className={styles.cardFooter}
         style={{ backgroundColor: diffAccentColor }}
       >
-        <div className={styles.bpm}>{bpm} BPM</div>
+        <div className={styles.bpm}>{bpm}</div>
         {hasShock && (
           <div className={styles.shockBadge} title={t("shockArrows")}>
             <Zap
