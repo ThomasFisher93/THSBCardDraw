@@ -150,7 +150,7 @@ module.exports = function(env = {}, argv = {}) {
         chunkFilename: "[id].[chunkhash:5].js",
       }),
       new HtmlWebpackPlugin({
-        title: "DDR Card Draw",
+        title: "THSB Card Draw",
         filename: "index.html",
         meta: {
           viewport: "width=device-width, initial-scale=1",
@@ -162,7 +162,7 @@ module.exports = function(env = {}, argv = {}) {
         : [
             new ZipPlugin({
               path: __dirname,
-              filename: `DDRCardDraw-${version}.zip`,
+              filename: `THSBCardDraw-${version}.zip`,
               exclude: "__offline_serviceworker",
             }),
             new OfflinePlugin({

@@ -6,13 +6,13 @@
       { "key": "normal", "color": "#e8715f" },
       { "key": "hard", "color": "#72cc6e" }
     ],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","sanae"],
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","sanae","pcb"],
     "lvlMax": 13
   },
   "defaults": {
     "style": "single",
     "difficulties": ["hard"],
-    "flags": ["special1", "eosd", "shinrabansho"],
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2"],
     "lowerLvlBound": 6,
     "upperLvlBound": 13
   },
@@ -26,11 +26,12 @@
       "special1": "Special Song Pack Vol. 1",
       "eosd": "Scarlet Devil Land Song Pack",
       "shinrabansho": "ShinRa-Bansho Music Pack",
-      "cirno":"Side Story Pack - Cirno Chapter",
-      "holoism":"#GensokyoHoloism Pack",
-      "special2": "Special Song Pack Vol. 2",
+      "cirno":"Side Story Pack Cirno Arc",
+      "holoism":"#Gensokyo Holoism Pack",
+      "special2": "Special Music Pack Vol. 2",
       "yuuhei":"Yuuhei Satellite Music Pack",
-      "sanae":"Side Story Pack - Sanae Chapter",
+      "sanae":"Side Story Pack Sanae Arc",
+      "pcb":"Perfect Cherry Blossom Song Pack",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -51,6 +52,7 @@
       "special2": "特撰楽曲パック Vol.2",
       "yuuhei":"幽閉サテライト楽曲パック",
       "sanae":"サイドストーリーパック 早苗編",
+      "pcb":"東方妖々夢アレンジパック",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -1373,6 +1375,110 @@
         { "lvl": 3, "style": "single", "diffClass": "easy" },
         { "lvl": 5, "style": "single", "diffClass": "normal" },
         { "lvl": 7, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "回転 feat.あやぽんず＊",
+      "name_translation": "Kaiten feat. Ayaponzu*",
+      "jacket": "thsb/hakugyokurou.png",
+      "bpm": "04:22",
+      "folder": "THSB",
+      "artist": "森羅万象",
+      "artist_translation": "ShinRa-Bansho",
+      "flags": ["pcb"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 5, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "絡繰りドール",
+      "name_translation": "Karakuri Doll",
+      "jacket": "thsb/magicforest.png",
+      "bpm": "04:17",
+      "folder": "THSB",
+      "artist": "SOUND HOLIC",
+      "artist_translation": "",
+      "flags": ["pcb"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 5, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Melody!",
+      "name_translation": "",
+      "jacket": "thsb/mistylake.png",
+      "bpm": "03:42",
+      "folder": "THSB",
+      "artist": "いえろ〜ぜぶら（あ～るの～と）",
+      "artist_translation": "Yellow Zebra (R-note)",
+      "flags": ["pcb"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 5, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "桜花散華",
+      "name_translation": "Cherry Blossom Dying a Glorious Death",
+      "jacket": "thsb/hakugyokurou.png",
+      "bpm": "04:30",
+      "folder": "THSB",
+      "artist": "Riverside",
+      "artist_translation": "",
+      "flags": ["pcb"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 5, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "彷徨いの冥～天～",
+      "name_translation": "Samayoi no Mei ~Ten~",
+      "jacket": "thsb/hakugyokurou.png",
+      "bpm": "04:00",
+      "folder": "THSB",
+      "artist": "少女フラクタル",
+      "artist_translation": "Shoujo Fractal",
+      "flags": ["pcb"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "New World",
+      "name_translation": "",
+      "jacket": "thsb/hakureijinjanight.png",
+      "bpm": "03:58",
+      "folder": "THSB",
+      "artist": "FELT",
+      "artist_translation": "",
+      "flags": ["pcb"],
+      "charts": [
+        { "lvl": 4, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 8, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "ロストワードクロニカル",
+      "name_translation": "Lost Word Chronicle",
+      "jacket": "thsb/bambooforest.png",
+      "bpm": "03:37",
+      "folder": "THSB",
+      "artist": "東方LostWord feat.いとうかなこ",
+      "artist_translation": "Touhou Lost Word feat. Kanako Ito",
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 8, "style": "single", "diffClass": "hard" }
       ]
     }
   ]
