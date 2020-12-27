@@ -9,7 +9,7 @@ import { TranslateContext } from "@denysvuika/preact-translate";
 import { About } from "./about";
 
 // note that month is zero-indexed for date constructor :)
-const lastUpdate = new Date(2020, 11, 17);
+const lastUpdate = new Date(2020, 11, 24);
 
 export function Footer() {
   const { t } = useContext(TranslateContext);

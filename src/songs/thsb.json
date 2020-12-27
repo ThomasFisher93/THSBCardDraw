@@ -32,6 +32,7 @@
       "yuuhei":"Yuuhei Satellite Music Pack",
       "sanae":"Side Story Pack Sanae Arc",
       "pcb":"Perfect Cherry Blossom Song Pack",
+      "special3": "Special Music Pack Vol. 3",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -53,6 +54,7 @@
       "yuuhei":"幽閉サテライト楽曲パック",
       "sanae":"サイドストーリーパック 早苗編",
       "pcb":"東方妖々夢アレンジパック",
+      "special3": "特撰楽曲パック Vol.3",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -1479,6 +1481,96 @@
         { "lvl": 3, "style": "single", "diffClass": "easy" },
         { "lvl": 6, "style": "single", "diffClass": "normal" },
         { "lvl": 8, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "WARNING×WARNING×WARNING",
+      "name_translation": "",
+      "jacket": "thsb/arena.png",
+      "bpm": "04:26",
+      "folder": "THSB",
+      "artist": "暁Records",
+      "artist_translation": "Akatsuki Records",
+      "flags": ["special3"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 7, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "わかさぎ姫の命を懸けた寿司ネタ100本勝負",
+      "name_translation": "Wakasagihime no Inochi wo Kaketa Sushi Neta 100-pon Shop",
+      "jacket": "thsb/mistylake.png",
+      "bpm": "02:37",
+      "folder": "THSB",
+      "artist": "谷屋楽（へたのよこずき）",
+      "artist_translation": "Taniya Raku (Heta no Yokozuki)",
+      "flags": ["special3"],
+      "charts": [
+        { "lvl": 4, "style": "single", "diffClass": "easy" },
+        { "lvl": 7, "style": "single", "diffClass": "normal" },
+        { "lvl": 8, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "伝説の夢の国～弾幕注意報",
+      "name_translation": "The Legendary Land of Dreams ~ Danmaku Warning",
+      "jacket": "thsb/bambooforest.png",
+      "bpm": "004:14",
+      "folder": "THSB",
+      "artist": "東京アクティブNEETs",
+      "artist_translation": "Tokyo Active NEETs",
+      "flags": ["special3"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 5, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Dressed-Up Shadow",
+      "name_translation": "",
+      "jacket": "thsb/bambooforest.png",
+      "bpm": "05:35",
+      "folder": "THSB",
+      "artist": "発熱巫女～ず",
+      "artist_translation": "Hatsunetsumiko's",
+      "flags": ["special3"],
+      "charts": [
+        { "lvl": 5, "style": "single", "diffClass": "easy" },
+        { "lvl": 8, "style": "single", "diffClass": "normal" },
+        { "lvl": 10, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Sign",
+      "name_translation": "",
+      "jacket": "thsb/koumakan.png",
+      "bpm": "03:55",
+      "folder": "THSB",
+      "artist": "魂音泉 feat. 豚乙女",
+      "artist_translation": "TamaOnSen feat. BUTAOTOME",
+      "flags": ["special3"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 5, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "ナイト・オブ・ナイツ (MRM REMIX)",
+      "name_translation": "Night of Knights / Knight of Nights (MRM REMIX)",
+      "jacket": "thsb/koumakan.png",
+      "bpm": "03:11",
+      "folder": "THSB",
+      "artist": "ビートまりお Remixed by モリモリあつし",
+      "artist_translation": "BeatMARIO Remixed by Morimori Atsushi",
+      "flags": ["special3"],
+      "charts": [
+        { "lvl": 4, "style": "single", "diffClass": "easy" },
+        { "lvl": 7, "style": "single", "diffClass": "normal" },
+        { "lvl": 9, "style": "single", "diffClass": "hard" }
       ]
     }
   ]
