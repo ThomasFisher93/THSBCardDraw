@@ -70,7 +70,8 @@ export interface Song {
   artist: string;
   genre?: string;
   artist_translation?: string;
-  bpm: string;
+  bpm?: string;
+  duration?: string;
   name_translation?: string;
   search_hint?: string;
   charts: Chart[];

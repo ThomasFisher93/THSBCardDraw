@@ -53,6 +53,7 @@ export function SongCard(props: Props) {
     artist,
     artistTranslation,
     bpm,
+    duration,
     difficultyClass,
     level,
     hasShock,
@@ -125,7 +126,12 @@ export function SongCard(props: Props) {
         className={styles.cardFooter}
         style={{ backgroundColor: diffAccentColor }}
       >
-        <div className={styles.bpm}>{bpm}</div>
+        {bpm && (
+          <div className={styles.bpm}>{bpm} BPM</div>
+        )}
+        {duration && (
+          <div className={styles.bpm}>{duration}</div>
+        )}
         {hasShock && (
           <div className={styles.shockBadge} title={t("shockArrows")}>
             <Zap

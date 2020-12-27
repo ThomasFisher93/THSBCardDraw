@@ -4,7 +4,8 @@ export interface DrawnChart {
   nameTranslation?: string;
   artist: string;
   artistTranslation?: string;
-  bpm: string;
+  bpm?: string;
+  duration?: string;
   difficultyClass: string;
   level: number;
   hasShock: boolean;
