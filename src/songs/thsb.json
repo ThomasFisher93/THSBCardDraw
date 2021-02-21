@@ -6,13 +6,13 @@
       { "key": "normal", "color": "#e8715f" },
       { "key": "hard", "color": "#72cc6e" }
     ],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","sanae","pcb","special3", "yukari"],
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","sanae","pcb","special3", "yukari","eiyashou"],
     "lvlMax": 13
   },
   "defaults": {
     "style": "single",
     "difficulties": ["hard"],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei"],
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb"],
     "lowerLvlBound": 6,
     "upperLvlBound": 13
   },
@@ -31,9 +31,10 @@
       "special2": "Special Music Pack Vol. 2",
       "yuuhei":"Yuuhei Satellite Music Pack",
       "sanae":"Side Story Pack Sanae Arc",
-      "pcb":"Perfect Cherry Blossom Song Pack",
+      "pcb":"Touhou Youyoumu Arrangements Pack",
       "special3": "Special Music Pack Vol. 3",
       "yukari":"Side Story Pack Yukari Arc",
+      "eiyashou":"Touyou Eiyashou Arrangements Pack",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -57,6 +58,7 @@
       "pcb":"東方妖々夢アレンジパック",
       "special3": "特撰楽曲パック Vol.3",
       "yukari": "サイドストーリーパック 紫編",
+      "eiyashou": "東方永夜抄アレンジパック",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -1250,7 +1252,7 @@
     },
     {
       "name": "幻想河童行進曲（feat. ｙｔｒ）",
-      "name_translation": "Gensou Kappa Koushinkyoku (feat. ytr)",
+      "name_translation": "GENSOU KAPPA KOUSHINKYOKU (feat. ytr)",
       "jacket": "thsb/youkaiyama.png",
       "duration": "05:05",
       "artist": "魂音泉",
@@ -1278,7 +1280,7 @@
     },
     {
       "name": "囲い無き世は一期の月影",
-      "name_translation": "Kakoi-naki Yo wa Ichigo no Tsukikage",
+      "name_translation": "Kakoi-naki Yo Ha Ichigo no Tsukikage",
       "jacket": "thsb/bambooforest.png",
       "duration": "02:35",
       "artist": "豚乙女",
@@ -1309,7 +1311,7 @@
       "name_translation": "Karakuri Doll",
       "jacket": "thsb/magicforest.png",
       "duration": "04:17",
-      "artist": "SOUND HOLIC",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
       "artist_translation": "",
       "flags": ["pcb"],
       "charts": [
@@ -1324,7 +1326,7 @@
       "jacket": "thsb/mistylake.png",
       "duration": "03:42",
       "artist": "いえろ〜ぜぶら（あ～るの～と）",
-      "artist_translation": "Yellow Zebra (R-note)",
+      "artist_translation": "R-Note (Yellow Zebra)",
       "flags": ["pcb"],
       "charts": [
         { "lvl": 3, "style": "single", "diffClass": "easy" },
@@ -1348,7 +1350,7 @@
     },
     {
       "name": "彷徨いの冥～天～",
-      "name_translation": "Samayoi no Mei ~Ten~",
+      "name_translation": "Wandering Darkness ~AMATUS~",
       "jacket": "thsb/hakugyokurou.png",
       "duration": "04:00",
       "artist": "少女フラクタル",
@@ -1380,7 +1382,7 @@
       "jacket": "thsb/bambooforest.png",
       "duration": "03:37",
       "artist": "東方LostWord feat.いとうかなこ",
-      "artist_translation": "Touhou Lost Word feat. Kanako Ito",
+      "artist_translation": "Touhou LostWord feat. Itou Kanako",
       "charts": [
         { "lvl": 3, "style": "single", "diffClass": "easy" },
         { "lvl": 6, "style": "single", "diffClass": "normal" },
@@ -1403,7 +1405,7 @@
     },
     {
       "name": "わかさぎ姫の命を懸けた寿司ネタ100本勝負",
-      "name_translation": "Wakasagihime no Inochi wo Kaketa Sushi Neta 100-pon Shop",
+      "name_translation": "Wakasagihime Stakes her Life on a 100 Sushi-Topping Game",
       "jacket": "thsb/mistylake.png",
       "duration": "02:37",
       "artist": "谷屋楽（へたのよこずき）",
@@ -1417,9 +1419,9 @@
     },
     {
       "name": "伝説の夢の国～弾幕注意報",
-      "name_translation": "The Legendary Land of Dreams ~ Danmaku Warning",
+      "name_translation": "Legendary Dream Kingdom ~ Danmaku Advisory",
       "jacket": "thsb/bambooforest.png",
-      "duration": "004:14",
+      "duration": "04:14",
       "artist": "東京アクティブNEETs",
       "artist_translation": "Tokyo Active NEETs",
       "flags": ["special3"],
@@ -1510,6 +1512,90 @@
         { "lvl": 3, "style": "single", "diffClass": "easy" },
         { "lvl": 4, "style": "single", "diffClass": "normal" },
         { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "星色夜空",
+      "name_translation": "Hoshi-iro Yozora",
+      "jacket": "thsb/magicforest.png",
+      "duration": "04:09",
+      "artist": "あ～るの～と（いえろ〜ぜぶら）",
+      "artist_translation": "R-note (Yellow Zebra)",
+      "flags": ["eiyashou"],
+      "charts": [
+        { "lvl": 5, "style": "single", "diffClass": "easy" },
+        { "lvl": 8, "style": "single", "diffClass": "normal" },
+        { "lvl": 11, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "響縁",
+      "name_translation": "Kyouen",
+      "jacket": "thsb/hakureijinja.png",
+      "duration": "03:51",
+      "artist": "豚乙女",
+      "artist_translation": "BUTAOTOME",
+      "flags": ["eiyashou"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 7, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "ってゐ！～えいえんてゐVer～",
+      "name_translation": "...Tewi! ~Eientewi Ver~",
+      "jacket": "thsb/bambooforest.png",
+      "duration": "03:37",
+      "artist": "石鹸屋",
+      "artist_translation": "Sekken'ya",
+      "flags": ["eiyashou"],
+      "charts": [
+        { "lvl": 6, "style": "single", "diffClass": "easy" },
+        { "lvl": 10, "style": "single", "diffClass": "normal" },
+        { "lvl": 13, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "MoonJumper",
+      "name_translation": "",
+      "jacket": "thsb/bambooforest.png",
+      "duration": "05:11",
+      "artist": "凋叶棕",
+      "artist_translation": "Diao ye zong",
+      "flags": ["eiyashou"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 3, "style": "single", "diffClass": "normal" },
+        { "lvl": 5, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "千華繚乱",
+      "name_translation": "Senka Ryouran",
+      "jacket": "thsb/bambooforest.png",
+      "duration": "02:56",
+      "artist": "幽閉サテライト",
+      "artist_translation": "Yuuhei Satellite",
+      "flags": ["eiyashou"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 5, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Flame of fate",
+      "name_translation": "",
+      "jacket": "thsb/bambooforest.png",
+      "duration": "03:49",
+      "artist": "THE OTHER FLOWER",
+      "artist_translation": "",
+      "flags": ["eiyashou"],
+      "charts": [
+        { "lvl": 7, "style": "single", "diffClass": "easy" },
+        { "lvl": 11, "style": "single", "diffClass": "normal" },
+        { "lvl": 13, "style": "single", "diffClass": "hard" }
       ]
     }
   ]
