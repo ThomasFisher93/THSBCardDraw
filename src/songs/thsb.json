@@ -6,14 +6,14 @@
       { "key": "normal", "color": "#e8715f" },
       { "key": "hard", "color": "#72cc6e" }
     ],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","sanae","pcb","special3", "yukari","eiyashou"],
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","yukari","eiyashou","special4"],
     "lvlMax": 13
   },
   "defaults": {
     "style": "single",
     "difficulties": ["hard"],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb"],
-    "lowerLvlBound": 6,
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3"],
+    "lowerLvlBound": 7,
     "upperLvlBound": 13
   },
   "i18n": {
@@ -35,6 +35,7 @@
       "special3": "Special Music Pack Vol. 3",
       "yukari":"Side Story Pack Yukari Arc",
       "eiyashou":"Touyou Eiyashou Arrangements Pack",
+      "special4": "Special Music Pack Vol. 4",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -59,6 +60,7 @@
       "special3": "特撰楽曲パック Vol.3",
       "yukari": "サイドストーリーパック 紫編",
       "eiyashou": "東方永夜抄アレンジパック",
+      "special4": "特撰楽曲パック Vol.4",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -1596,6 +1598,90 @@
         { "lvl": 7, "style": "single", "diffClass": "easy" },
         { "lvl": 11, "style": "single", "diffClass": "normal" },
         { "lvl": 13, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "響け！CHIREI MY WAY!",
+      "name_translation": "Sound!CHIREI MY WAY!",
+      "jacket": "thsb/chireiden.png",
+      "duration": "04:24",
+      "artist": "森羅万象",
+      "artist_translation": "ShinRa-Bansho",
+      "flags": ["special4"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 7, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Dark Flight Dreamer",
+      "name_translation": "",
+      "jacket": "thsb/magicforest.png",
+      "duration": "03:08",
+      "artist": "REDALiCE feat. 野宮あゆみ",
+      "artist_translation": "REDALiCE feat. Ayumi Nomiya",
+      "flags": ["special4"],
+      "charts": [
+        { "lvl": 4, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 8, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Shiny Up!",
+      "name_translation": "",
+      "jacket": "thsb/bambooforest.png",
+      "duration": "04:28",
+      "artist": "C-CLAYS",
+      "artist_translation": "",
+      "flags": ["special4"],
+      "charts": [
+        { "lvl": 1, "style": "single", "diffClass": "easy" },
+        { "lvl": 3, "style": "single", "diffClass": "normal" },
+        { "lvl": 4, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "春空ハレルヤ",
+      "name_translation": "Haruzora Hallelujah",
+      "jacket": "thsb/hakugyokurou.png",
+      "duration": "04:29",
+      "artist": "少女理論観測所",
+      "artist_translation": "Girls Logic Observatory",
+      "flags": ["special4"],
+      "charts": [
+        { "lvl": 5, "style": "single", "diffClass": "easy" },
+        { "lvl": 9, "style": "single", "diffClass": "normal" },
+        { "lvl": 11, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "今夜、少女じゃいられない",
+      "name_translation": "Konya, Shoujo Ja Irarenai",
+      "jacket": "thsb/arenanight.png",
+      "duration": "02:25",
+      "artist": "TaNaBaTa",
+      "artist_translation": "",
+      "flags": ["special4"],
+      "charts": [
+        { "lvl": 4, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 8, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "月と狂気のラブ・サスペンス",
+      "name_translation": "Love Suspense of the Moon and Madness",
+      "jacket": "thsb/bambooforest.png",
+      "duration": "03:32",
+      "artist": "歌恋人",
+      "artist_translation": "Karento",
+      "flags": ["special4"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 5, "style": "single", "diffClass": "normal" },
+        { "lvl": 7, "style": "single", "diffClass": "hard" }
       ]
     }
   ]
