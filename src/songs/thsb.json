@@ -6,14 +6,14 @@
       { "key": "normal", "color": "#e8715f" },
       { "key": "hard", "color": "#72cc6e" }
     ],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","yukari","eiyashou","special4"],
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","eiyashou","yukari","special4","eurobeat"],
     "lvlMax": 13
   },
   "defaults": {
     "style": "single",
     "difficulties": ["hard"],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3"],
-    "lowerLvlBound": 7,
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","eiyashou"],
+    "lowerLvlBound": 6,
     "upperLvlBound": 13
   },
   "i18n": {
@@ -36,6 +36,7 @@
       "yukari":"Side Story Pack Yukari Arc",
       "eiyashou":"Touyou Eiyashou Arrangements Pack",
       "special4": "Special Music Pack Vol. 4",
+      "eurobeat": "Touhou Eurobeat Pack",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -61,6 +62,7 @@
       "yukari": "サイドストーリーパック 紫編",
       "eiyashou": "東方永夜抄アレンジパック",
       "special4": "特撰楽曲パック Vol.4",
+      "eurobeat": "東方ユーロビートパック",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -1678,6 +1680,90 @@
       "artist": "歌恋人",
       "artist_translation": "Karento",
       "flags": ["special4"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 5, "style": "single", "diffClass": "normal" },
+        { "lvl": 7, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "INFINITE WORLD [DJ Command Remix]",
+      "name_translation": "",
+      "jacket": "thsb/hakureijinjanight.png",
+      "duration": "04:14",
+      "artist": "SOUND HOLIC Vs. Eurobeat Union feat. Nana Takahashi",
+      "artist_translation": "",
+      "flags": ["eurobeat"],
+      "charts": [
+        { "lvl": 3, "style": "single", "diffClass": "easy" },
+        { "lvl": 5, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Endless Seeker",
+      "name_translation": "",
+      "jacket": "thsb/hakureijinja.png",
+      "duration": "04:26",
+      "artist": "A-One",
+      "artist_translation": "",
+      "flags": ["eurobeat"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 5, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "U-N-K-N-O-W-N",
+      "name_translation": "",
+      "jacket": "thsb/koumakan.png",
+      "duration": "04:14",
+      "artist": "CrazyBeats feat. 黒崎れおん",
+      "artist_translation": "CrazyBeats feat. Reon Kurosaki",
+      "flags": ["eurobeat"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Together Going My Way",
+      "name_translation": "",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "04:20",
+      "artist": "DiGiTAL WiNG",
+      "artist_translation": "",
+      "flags": ["eurobeat"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Signs of Autumn",
+      "name_translation": "",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "04:02",
+      "artist": "Eurobeat Union feat. NU-KO",
+      "artist_translation": "",
+      "flags": ["eurobeat"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 5, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "あげぽよTONIGHT",
+      "name_translation": "AGEPOYO TONIGHT",
+      "jacket": "thsb/bambooforest.png",
+      "duration": "04:20",
+      "artist": "IOSYS",
+      "artist_translation": "",
+      "flags": ["eurobeat"],
       "charts": [
         { "lvl": 3, "style": "single", "diffClass": "easy" },
         { "lvl": 5, "style": "single", "diffClass": "normal" },
