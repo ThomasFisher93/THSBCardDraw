@@ -6,15 +6,15 @@
       { "key": "normal", "color": "#e8715f" },
       { "key": "hard", "color": "#72cc6e" }
     ],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","eiyashou","yukari","special4","eurobeat"],
-    "lvlMax": 13
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","eiyashou","yukari","special4","eurobeat","mof"],
+    "lvlMax": 15
   },
   "defaults": {
     "style": "single",
     "difficulties": ["hard"],
-    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","eiyashou"],
+    "flags": ["special1", "eosd", "shinrabansho", "cirno","holoism","special2","yuuhei","pcb","special3","sanae","eiyashou","yukari"],
     "lowerLvlBound": 6,
-    "upperLvlBound": 13
+    "upperLvlBound": 15
   },
   "i18n": {
     "en": {
@@ -37,6 +37,7 @@
       "eiyashou":"Touyou Eiyashou Arrangements Pack",
       "special4": "Special Music Pack Vol. 4",
       "eurobeat": "Touhou Eurobeat Pack",
+      "mof": "Touhou Fuujinroku Arrangements Pack",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -63,6 +64,7 @@
       "eiyashou": "東方永夜抄アレンジパック",
       "special4": "特撰楽曲パック Vol.4",
       "eurobeat": "東方ユーロビートパック",
+      "mof": "東方風神録アレンジパック",
       "$abbr": {
         "easy": "E",
         "normal": "N",
@@ -1768,6 +1770,90 @@
         { "lvl": 3, "style": "single", "diffClass": "easy" },
         { "lvl": 5, "style": "single", "diffClass": "normal" },
         { "lvl": 7, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "紅に染まる恋の花",
+      "name_translation": "The flower of love dyed red",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "04:00",
+      "artist": "幽閉サテライト",
+      "artist_translation": "Yuuhei Satellite",
+      "flags": ["mof"],
+      "charts": [
+        { "lvl": 1, "style": "single", "diffClass": "easy" },
+        { "lvl": 3, "style": "single", "diffClass": "normal" },
+        { "lvl": 4, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "ヤクプリ",
+      "name_translation": "YAKUPURI",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "03:52",
+      "artist": "ゼッケン屋",
+      "artist_translation": "ZEKKENYA",
+      "flags": ["mof"],
+      "charts": [
+        { "lvl": 4, "style": "single", "diffClass": "easy" },
+        { "lvl": 6, "style": "single", "diffClass": "normal" },
+        { "lvl": 7, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "神々が恋した幻想郷",
+      "name_translation": "Kamigami ga Koishita Gensoukyou",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "03:54",
+      "artist": "Unlucky Morpheus",
+      "artist_translation": "",
+      "flags": ["mof"],
+      "charts": [
+        { "lvl": 5, "style": "single", "diffClass": "easy" },
+        { "lvl": 12, "style": "single", "diffClass": "normal" },
+        { "lvl": 15, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "はたてのバッコイ殺人事件",
+      "name_translation": "Hatate's Bakkoi Murder Case",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "03:36",
+      "artist": "IOSYS",
+      "artist_translation": "",
+      "flags": ["mof"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "Hands",
+      "name_translation": "",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "05:34",
+      "artist": "魂音泉",
+      "artist_translation": "TamaOnSen",
+      "flags": ["mof"],
+      "charts": [
+        { "lvl": 4, "style": "single", "diffClass": "easy" },
+        { "lvl": 7, "style": "single", "diffClass": "normal" },
+        { "lvl": 8, "style": "single", "diffClass": "hard" }
+      ]
+    },
+    {
+      "name": "祭符「神遊びの唄」",
+      "name_translation": "Ritual Sign \"Song of the Divine Play\"",
+      "jacket": "thsb/moriyajinja.png",
+      "duration": "05:12",
+      "artist": "凋叶棕",
+      "artist_translation": "Diao ye zong",
+      "flags": ["mof"],
+      "charts": [
+        { "lvl": 2, "style": "single", "diffClass": "easy" },
+        { "lvl": 4, "style": "single", "diffClass": "normal" },
+        { "lvl": 6, "style": "single", "diffClass": "hard" }
       ]
     }
   ]
